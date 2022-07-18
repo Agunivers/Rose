@@ -4,7 +4,7 @@ class Config(object):
 
     # REQUIRED
 
-    API_KEY = "2079865042:AAHtMJ_Bm0X2Du6zgMtkEtYkfrC9V4eXbgs"
+    API_KEY = "5569567626:AAGY_m3oMvvO3du6rHnb_Mqa67I6k2SVBIE"
 
     OWNER_ID = ""1323557247 # If you dont know, run the bot and do /id in your private chat with it
 
@@ -26,11 +26,11 @@ class Config(object):
 
     # OPTIONAL
 
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUDO_USERS = [1323557247]  # List of id's (not usernames) for users which have sudo access to the bot.
 
-    SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    SUPPORT_USERS = [1323557247]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
 
-    WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    WHITELIST_USERS = [1323557247]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
 
     DONATION_LINK = None  # EG, paypal
 
